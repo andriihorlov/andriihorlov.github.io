@@ -1,0 +1,142 @@
+.descTitle {
+  font-weight: 800;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 12px;
+
+  &.light {
+    color: #0c151d;
+  }
+}
+
+.desc {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 32px;
+
+  @media (max-width: 430px) {
+    margin-bottom: 24px;
+  }
+
+  &.light {
+    color: #6d7377;
+  }
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 32px;
+
+  @media (max-width: 430px) {
+    margin-bottom: 24px;
+  }
+
+  .tech {
+    margin: 0;
+    padding: 10px 16px;
+    border-radius: 100px;
+    background-color: #182129;
+    color: rgba(255, 255, 255, 0.8);
+
+    @media (max-width: 430px) {
+      font-size: 14px;
+      padding: 5px 12px;
+    }
+
+    &.light {
+      background-color: #f3f3f4;
+      color: #6d7377;
+    }
+  }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
+
+  .linkCode {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    padding: 16px 24px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255);
+    text-decoration: none;
+
+    @media (max-width: 480px) {
+      width: 100%;
+      justify-content: center;
+    }
+
+    &.light {
+      background-color: #0c151d;
+    }
+
+    &:hover {
+      background-color: #ffffffc8;
+
+      &.light {
+        background-color: #0c151dde;
+      }
+    }
+
+    img {
+      width: 24px;
+
+      @media (max-width: 480px) {
+        margin: 0;
+      }
+    }
+
+    .codeName {
+      color: #0c151d;
+      font-weight: 800;
+      font-size: 14px;
+
+      @media (max-width: 480px) {
+        margin: 0;
+      }
+
+      &.light {
+        color: #fff;
+      }
+    }
+  }
+
+  .linkDemo {
+    margin: 0;
+    padding: 18.67px 24px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+
+    @media (max-width: 480px) {
+      width: 100%;
+      text-align: center;
+    }
+
+    &.light {
+      color: #0c151d;
+      border: 1px solid #6d7377;
+    }
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+
+      &.light {
+        background-color: #d9dbdb;
+      }
+    }
+  }
+}

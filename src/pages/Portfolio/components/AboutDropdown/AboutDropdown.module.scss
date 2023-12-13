@@ -1,0 +1,23 @@
+.aboutItem {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  .contentItem {
+    margin: 0;
+    padding: 10px 16px;
+    border-radius: 100px;
+    background-color: #182129;
+    color: rgba(255, 255, 255, 0.8);
+
+    @media (max-width: 430px) {
+      font-size: 14px;
+      padding: 5px 12px;
+    }
+
+    &.light {
+      background-color: #f3f3f4;
+      color: #6d7377;
+    }
+  }
+}

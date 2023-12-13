@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 820px;
+  padding: 10px 0 20px 0;
+  background-color: #0c151d;
+
+  &.light {
+    background-color: #fff;
+  }
+
+  .item {
+    margin: 0;
+    width: min-content;
+  }
+}

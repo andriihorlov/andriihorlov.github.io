@@ -1,0 +1,133 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  background-color: #182129;
+  padding: 40px;
+  border-radius: 32px;
+  text-align: left;
+
+  &.light {
+    background-color: #f3f3f4;
+  }
+
+  @media (max-width: 830px) {
+    width: 100%;
+    gap: 16px;
+    padding: 24px;
+  }
+
+  .title {
+    margin: 0;
+    font-weight: 800;
+    font-size: 24px;
+    color: #fff;
+
+    &.light {
+      color: #0c151d;
+    }
+  }
+
+  .email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+    &.light {
+      border-bottom: 1px solid #ced0d2;
+    }
+
+    .emailItem {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0;
+
+      .logo {
+        margin: 0;
+        width: 20px;
+      }
+
+      .emailContent {
+        margin: 0;
+        font-size: 16px;
+
+        &.light {
+          color: #6d7377;
+        }
+      }
+    }
+
+    .copyButton {
+      margin: 0;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 12px;
+      color: #fff;
+      background-color: #2f373e;
+      font-size: 16px;
+      cursor: pointer;
+
+      @media (max-width: 430px) {
+        padding: 5px 10px;
+      }
+
+      &.light {
+        color: #0c151d;
+        background-color: #ced0d2;
+      }
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+
+        &.light {
+          background-color: #9ea1a5;
+
+          &:active {
+            filter: brightness(130%);
+          }
+        }
+      }
+
+      &:active {
+        filter: brightness(40%);
+      }
+    }
+  }
+
+  .phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+
+    .logo {
+      margin: 0;
+      width: 20px;
+    }
+
+    .phoneContent {
+      margin: 0;
+      font-size: 16px;
+
+      &.light {
+        color: #6d7377;
+      }
+    }
+  }
+
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+
+    a {
+      margin: 0;
+    }
+  }
+}

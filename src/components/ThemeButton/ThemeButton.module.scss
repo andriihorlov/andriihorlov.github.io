@@ -1,0 +1,35 @@
+.themeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: #0c151d;
+
+  &.light {
+    background-color: #fff;
+  }
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &.light {
+      background-color: #e5e5e5;
+    }
+  }
+
+  .themeImg {
+    width: 22px;
+    filter: brightness(150%);
+    transition: all 0.4s ease-in-out;
+    transform: rotate(0);
+
+    &.light {
+      filter: brightness(80%);
+      transition: all 0.4s ease-in-out;
+      transform: rotate(0.5turn);
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.generally {
+  width: 50%;
+  background-color: #182129;
+  padding: 40px;
+  border-radius: 32px;
+  text-align: left;
+
+  &.light {
+    background-color: #f3f3f4;
+  }
+
+  @media (max-width: 830px) {
+    width: 100%;
+    padding: 24px;
+  }
+
+  .generallyTitle {
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 24px;
+    color: #fff;
+
+    &.light {
+      color: #0c151d;
+    }
+  }
+
+  .generallyContent {
+    font-size: 16px;
+
+    &.light {
+      color: #6d7377;
+    }
+  }
+}

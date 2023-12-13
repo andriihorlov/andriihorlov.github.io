@@ -1,0 +1,32 @@
+.projects {
+  width: 100%;
+  background-color: #182129;
+  padding: 40px;
+  border-radius: 32px;
+  text-align: left;
+
+  @media (max-width: 830px) {
+    padding: 24px;
+  }
+
+  &.light {
+    background-color: #f3f3f4;
+  }
+
+  .title {
+    font-weight: 800;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 24px;
+
+    &.light {
+      color: #0c151d;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
