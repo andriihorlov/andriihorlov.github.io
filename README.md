@@ -1,1 +1,0 @@
-# andriihorlov.github.io
