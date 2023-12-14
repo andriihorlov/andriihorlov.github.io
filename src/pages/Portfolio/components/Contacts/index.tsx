@@ -30,7 +30,7 @@ const Contacts = () => {
   }
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("andreysnezhok@gmail.com");
+    navigator.clipboard.writeText("andreygorlovv@gmail.com");
     setIsCopy(true);
   };
 
@@ -79,17 +79,17 @@ const Contacts = () => {
       </div>
       <div className={styles.link}>
         <ContactLink
-          link="https://www.linkedin.com/in/andrii-snizhko-887785258/"
+          link="https://www.linkedin.com/in/fidgetik/"
           logo={theme ? Linkedin_light : Linkedin_dark}
           alt="linkedin"
         />
         <ContactLink
-          link="https://t.me/AndriiSnizhko"
+          link="https://t.me/fidgetik"
           logo={theme ? Telegram_light : Telegram_dark}
           alt="telegram"
         />
         <ContactLink
-          link="https://github.com/SnezhkoAndrey"
+          link="https://github.com/FidgHorlov"
           logo={theme ? Git_light : Git_dark}
           alt="git"
         />
