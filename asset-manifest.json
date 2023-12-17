@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/andriihorlov.github.io/static/css/main.92fbdde1.css",
-    "main.js": "/andriihorlov.github.io/static/js/main.288e4c52.js",
+    "main.js": "/andriihorlov.github.io/static/js/main.d63ff640.js",
     "static/js/787.28cb0dcd.chunk.js": "/andriihorlov.github.io/static/js/787.28cb0dcd.chunk.js",
     "static/media/CV_Andrii_Snizhko.pdf": "/andriihorlov.github.io/static/media/CV_Andrii_Snizhko.e5a53abdf9224b267a2b.pdf",
     "static/media/avatar.png": "/andriihorlov.github.io/static/media/avatar.bd4c367df54d87bb2509.png",
@@ -29,11 +29,11 @@
     "static/media/getFetch.cjs": "/andriihorlov.github.io/static/media/getFetch.40f37ddea2378391108f.cjs",
     "static/media/marker-light.svg": "/andriihorlov.github.io/static/media/marker-light.067885e32db4dda674b6654739b3a431.svg",
     "main.92fbdde1.css.map": "/andriihorlov.github.io/static/css/main.92fbdde1.css.map",
-    "main.288e4c52.js.map": "/andriihorlov.github.io/static/js/main.288e4c52.js.map",
+    "main.d63ff640.js.map": "/andriihorlov.github.io/static/js/main.d63ff640.js.map",
     "787.28cb0dcd.chunk.js.map": "/andriihorlov.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92fbdde1.css",
-    "static/js/main.288e4c52.js"
+    "static/js/main.d63ff640.js"
   ]
 }
