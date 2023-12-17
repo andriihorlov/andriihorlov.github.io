@@ -39,8 +39,8 @@ const Title = () => {
           <img className={styles.avatar} src={Avatar} alt="avatar" />
         </div>
         <div className={styles.name}>
-          <h2 className={addTheme(styles.nameItem)}>{t("home_name")}</h2>
-          <p className={addTheme(styles.profession)}>{t("home_profession")}</p>
+          <h2 className={addTheme(styles.nameItem)}>{t("home.name")}</h2>
+          <p className={addTheme(styles.profession)}>{t("home.profession")}</p>
         </div>
       </div>
       <a
@@ -52,7 +52,7 @@ const Title = () => {
       >
         <button className={styles.button}>
           <div className={styles.downloadButton}>
-            <p>{t("home_download")}</p>
+            <p>{t("home.download")}</p>
             <img src={Download} alt="download" />
           </div>
         </button>

@@ -5,20 +5,15 @@ import AboutProjectBox from "../../../../components/AboutProjectBox/AboutProject
 
 const Projects = () => {
   const { t } = useTranslation();
-
   const PROJECTS_DATA = useProjectData(t);
 
   return (
-    <AboutProjectBox title={t("home_project")}>
-      {PROJECTS_DATA.map((data) => (
+    <AboutProjectBox title={t("home.project")}>
+      {PROJECTS_DATA.map((data, index) => (
         <ProjectDropdown
-          key={data.number}
-          technologies={data.technologies}
-          name={data.name}
-          desc={data.desc}
-          codeLink={data.codeLink}
-          demoLink={data.demoLink}
-          number={data.number}
+          key={index}
+          projectInfo={data}
+          number={`${String(index + 1).padStart(2, '0')}.`}
         />
       ))}
     </AboutProjectBox>

@@ -24,16 +24,16 @@ export const useAboutData = (
   t: TFunction<"translation", undefined, "translation">
 ) => {
   const ABOUT_DATA = [
-    { content: CONTENT_TECHNOLOGIES, number: "01.", name: t("home_skills") },
+    { content: CONTENT_TECHNOLOGIES, number: "01.", name: t("home.skills") },
     {
-      content: [t("home_univ"), t("home_course")],
+      content: [t("home.univ"), t("home.course")],
       number: "02.",
-      name: t("home_edu"),
+      name: t("home.edu"),
     },
     {
-      content: [t("home_uk"), t("home_en")],
+      content: [t("home.uk"), t("home.en")],
       number: "03.",
-      name: t("home_lang"),
+      name: t("home.lang"),
     },
   ];
 

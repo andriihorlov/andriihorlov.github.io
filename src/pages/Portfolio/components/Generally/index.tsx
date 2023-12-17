@@ -31,8 +31,8 @@ const Generally = () => {
       variants={divVariants}
       className={addTheme(styles.generally)}
     >
-      <h3 className={addTheme(styles.generallyTitle)}>{t("home_generally")}</h3>
-      <p className={addTheme(styles.generallyContent)}>{t("home_desc")}</p>
+      <h3 className={addTheme(styles.generallyTitle)}>{t("home.generally")}</h3>
+      <p className={addTheme(styles.generallyContent)}>{t("home.desc")}</p>
     </motion.div>
   );
 };

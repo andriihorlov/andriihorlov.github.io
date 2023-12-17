@@ -18,13 +18,11 @@ import { motion } from "framer-motion";
 
 const Contacts = () => {
   const { t } = useTranslation();
-
   const { theme } = useContext(GlobalContext);
-
   const { addTheme } = useTheme(theme, styles.light);
-
   const [isCopy, setIsCopy] = useState(false);
 
+  // TODO: need to fix that
   if (isCopy) {
     setTimeout(() => setIsCopy(false), 10000);
   }
@@ -53,7 +51,8 @@ const Contacts = () => {
       variants={divVariants}
       className={addTheme(styles.contacts)}
     >
-      <h3 className={addTheme(styles.title)}>{t("home_contact")}</h3>
+      <h3 className={addTheme(styles.title)}>{t("home.contact")}</h3>
+
       <div className={addTheme(styles.email)}>
         <div className={styles.emailItem}>
           <img
@@ -62,21 +61,24 @@ const Contacts = () => {
             alt="email"
           />
           <p className={addTheme(styles.emailContent)}>
-            andreysnezhok@gmail.com
+            andreygorlovv@gmail.com
           </p>
         </div>
         <button className={addTheme(styles.copyButton)} onClick={handleCopy}>
-          {isCopy ? t("home_copied") : t("home_copy")}
+          {isCopy ? t("home.copied") : t("home.copy")}
         </button>
       </div>
+
       <div className={styles.phone}>
         <img
           className={styles.logo}
           src={theme ? Phone_light : Phone_dark}
           alt="phone"
         />
+        {/* TODO: Change phone number if needed */}
         <p className={addTheme(styles.phoneContent)}>+38 (097) 603 39 10</p>
       </div>
+
       <div className={styles.link}>
         <ContactLink
           link="https://www.linkedin.com/in/fidgetik/"
