@@ -31,7 +31,7 @@ export const useAboutData = (
       name: t("home_edu"),
     },
     {
-      content: [t("home_uk"), t("home_en"), t("home_ru")],
+      content: [t("home_uk"), t("home_en")],
       number: "03.",
       name: t("home_lang"),
     },
