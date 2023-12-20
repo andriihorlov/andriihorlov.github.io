@@ -75,8 +75,8 @@ const Contacts = () => {
           src={theme ? Phone_light : Phone_dark}
           alt="phone"
         />
-        {/* TODO: Change phone number if needed */}
-        <p className={addTheme(styles.phoneContent)}>+38 (097) 603 39 10</p>
+        <p className={addTheme(styles.phoneContent)}>+38 (066) 425 20 80</p>
+        <p className={addTheme(styles.phoneContent)}>+351 (913) 486 330</p>
       </div>
 
       <div className={styles.link}>
