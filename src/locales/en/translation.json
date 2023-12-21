@@ -24,7 +24,12 @@
     "technology": "Technologies used",
     "code": "View code",
     "demo": "Try Demo",
-    "description_test": ""
+    "more_info": "More info",
+    "description_robots_vr": "Robots VR is a VR experience for learning about warehouses. Dive into interactive experiences with purpose-built robots that elevate and refine various aspects of warehouse operations. You get to interact with these robotic assistants executing logistics tasks, providing you with hands-on insights into how automation significantly enhances the efficiency and effectiveness of warehouse management.",
+    "description_digital_academy": "Digital Academy is an e-learning platform designed for technicians working with advanced industrial machinery. It offers engaging and interactive training sessions, ensuring comprehensive learning. The platform tracks progress, helping technicians improve their day-to-day efficiency in handling complex equipment. It's a valuable tool for staying updated and enhancing skills in the ever-evolving industrial landscape.",
+	"description_vr_gallery": "VR Gallery offers a captivating and interactive tour through your collection of paintings or photographs. It allows you to delve into the details information of each piece. This immersive experience seamlessly integrates with Meta Quest 2. The platform is designed to be flexible and accommodating, ensuring a personalized and exciting journey through the world of art."
+	"description_clerk_shadow": "Join the fun adventure as an office worker trying to break out of the usual routine. The gameplay unfolds as the character returns from the office. The hero's shadow overcoming obstacles before the real player reaches the final doors. Enjoy the game with cool sounds, different places, and challenges at each level. In the game, you can pick one of the languages: Ukrainian or English. This unique game was created during a game jam by two developers and one designer",
+	"description_dont_miss_your_travel": "Take a fun journey where your character needs to catch a flight in a hurry. It's crucial to avoid interacting with other characters (NPCs) as it may lead to delays. The game has a tutorial to help you learn the basics and controls, and after that game will be easy for both new and experienced players.",
   },
   "about": "About",
   "modal_contact": "Contact me",

@@ -3,7 +3,7 @@ import { GlobalContext } from "../../../../context/GlobalContext";
 import { useContext } from "react";
 import useTheme from "../../../../hooks/useTheme";
 import styles from "./Title.module.scss";
-import Avatar from "../../../../assets/avatar.jpg";
+import Avatar from "../../../../assets/avatar.png";
 import Download from "../../../../assets/download.svg";
 import Resume from "./CV-AndriiHorlov.pdf";
 import { motion } from "framer-motion";

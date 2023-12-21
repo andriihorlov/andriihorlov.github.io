@@ -7,51 +7,56 @@ export const useProjectData = (
     {
       name: "VR Gallery",
       technologies: [
-        "Unity", "3D", "VR"
+        "Unity", "C#", "VR", "MetaSDK", "Work with file-system" 
       ],
       // TODO: add description if needed
-      desc: t("project.description_test"),
+      desc: t("project.description_vr_gallery"),
       codeLink: "https://github.com/FidgHorlov/VrGallery",
-      // demoLink: "",
+	  // more_info: "",
+      demoLink: "https://github.com/FidgHorlov/VrGallery/releases/tag/release",
     },
     {
       name: "VR Robots",
       technologies: [
-        "Tsukat", "Unity", "3D", "VR"
+        "Unity", "C#", "VR", "Hand-tracking", "OVR (Oculus Integration)"
       ],
       // TODO: add description if needed
-      desc: t("project.description_test"),
+      desc: t("project.description_robots_vr"),
       // codeLink: "",
-      demoLink: "https://tsukat.com/portfolio/koerber-vr-robots",
+	  // more_info : "https://tsukat.com/portfolio/koerber-vr-robots",
+      // demoLink: "",
     },
     {
       name: "Learning Platform",
       technologies: [
-        "Tsukat", "Unity", "3D", "WebGL"
+        "Unity", "C#", "3D", "WebGL", "Unity Customization", "API integration"
       ],
       // TODO: add description if needed
-      desc: t("project.description_test"),
+      desc: t("project.description_digital_academy"),
       // codeLink: "",
-      demoLink: "https://tsukat.com/portfolio/koerber-digital-academy",
+	  // more_info: "https://tsukat.com/portfolio/koerber-digital-academy",
+      // demoLink: "",
     },
     {
       name: "Clerk Shadow",
       technologies: [
-        "Game", "Unity", "2D", "Windows","WebGL"
+        "Unity", "C#", "2D", "Windows", "WebGL"
       ],
       // TODO: add description if needed
-      desc: t("project.description_test"),
+      desc: t("project.description_clerk_shadow"),
       // codeLink: "",
+	  // more_info: "",
       // demoLink: "",
     },
     {
       name: "Don’t miss your travel",
       technologies: [
-        "Game", "Unity", "2D", "Windows","WebGL"
+        "Unity", "C#", "2D", "Windows", "WebGL"
       ],
       // TODO: add description if needed
-      desc: t("project.description_test"),
+      desc: t("project.description_dont_miss_your_travel"),
       // codeLink: "",
+	  // more_info: "",
       // demoLink: "",
     }
   ];
