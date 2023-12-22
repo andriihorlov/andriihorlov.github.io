@@ -25,7 +25,7 @@
     .avatarWrapper {
       background-color: #0c151d;
       border-radius: 50%;
-      padding: 16px;
+      overflow: hidden;
 
       @media (max-width: 670px) {
         padding: 12px;
