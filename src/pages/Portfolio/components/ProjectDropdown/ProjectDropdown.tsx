@@ -14,6 +14,7 @@ interface PropsType {
     desc: string;
     codeLink?: string;
     demoLink?: string;
+    moreInfo?: string;
   },
   number: string
 }
@@ -25,6 +26,7 @@ const ProjectDropdown = ({ projectInfo, number }: PropsType) => {
     desc,
     codeLink,
     demoLink,
+    moreInfo,
   } = projectInfo
   const { t } = useTranslation();
   const { theme } = useContext(GlobalContext);
@@ -66,6 +68,15 @@ const ProjectDropdown = ({ projectInfo, number }: PropsType) => {
           rel="noreferrer"
         >
           {t("project.demo")}
+        </a>}
+
+        {moreInfo && <a
+          className={addTheme(styles.linkDemo)}
+          href={moreInfo}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {t("project.more_info")}
         </a>}
       </div>
     </DropdownBox>

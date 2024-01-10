@@ -7,12 +7,11 @@ export const useProjectData = (
     {
       name: "VR Gallery",
       technologies: [
-        "Unity", "C#", "VR", "MetaSDK", "Work with file-system" 
+        "Unity", "C#", "VR", "MetaSDK", "Work with file-system"
       ],
-      // TODO: add description if needed
       desc: t("project.description_vr_gallery"),
       codeLink: "https://github.com/FidgHorlov/VrGallery",
-	  // more_info: "",
+	    moreInfo: "",
       demoLink: "https://github.com/FidgHorlov/VrGallery/releases/tag/release",
     },
     {
@@ -20,44 +19,40 @@ export const useProjectData = (
       technologies: [
         "Unity", "C#", "VR", "Hand-tracking", "OVR (Oculus Integration)"
       ],
-      // TODO: add description if needed
       desc: t("project.description_robots_vr"),
-      // codeLink: "",
-	  // more_info : "https://tsukat.com/portfolio/koerber-vr-robots",
-      // demoLink: "",
+      codeLink: "",
+	    moreInfo : "https://tsukat.com/portfolio/koerber-vr-robots",
+      demoLink: "",
     },
     {
       name: "Learning Platform",
       technologies: [
         "Unity", "C#", "3D", "WebGL", "Unity Customization", "API integration"
       ],
-      // TODO: add description if needed
       desc: t("project.description_digital_academy"),
-      // codeLink: "",
-	  // more_info: "https://tsukat.com/portfolio/koerber-digital-academy",
-      // demoLink: "",
+      codeLink: "",
+	    moreInfo: "https://tsukat.com/portfolio/koerber-digital-academy",
+      demoLink: "",
     },
     {
       name: "Clerk Shadow",
       technologies: [
         "Unity", "C#", "2D", "Windows", "WebGL"
       ],
-      // TODO: add description if needed
       desc: t("project.description_clerk_shadow"),
-      // codeLink: "",
-	  // more_info: "",
-      // demoLink: "",
+      codeLink: "",
+	    moreInfo: "",
+      demoLink: "",
     },
     {
       name: "Don’t miss your travel",
       technologies: [
         "Unity", "C#", "2D", "Windows", "WebGL"
       ],
-      // TODO: add description if needed
       desc: t("project.description_dont_miss_your_travel"),
-      // codeLink: "",
-	  // more_info: "",
-      // demoLink: "",
+      codeLink: "",
+	    moreInfo: "",
+      demoLink: "",
     }
   ];
 

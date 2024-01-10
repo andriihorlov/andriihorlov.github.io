@@ -10,16 +10,17 @@ import useTheme from "../../hooks/useTheme";
 
 const Portfolio = () => {
   const { theme } = useContext(GlobalContext);
-
   const { addTheme } = useTheme(theme, styles.light);
 
   return (
     <div className={addTheme(styles.main)}>
       <Title />
+
       <div className={styles.info}>
         <Generally />
         <Contacts />
       </div>
+
       <div className={styles.content}>
         <About />
         <Projects />
