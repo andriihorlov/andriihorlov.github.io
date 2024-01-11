@@ -21,6 +21,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^12.2.0",
+    "react-modal-image": "^2.6.0",
     "react-multi-carousel": "^2.8.4",
     "react-scripts": "5.0.1",
     "sass": "^1.61.0",
@@ -54,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-modal-image": "^2.6.3",
     "gh-pages": "^6.1.0",
     "tsconfig-paths": "^4.2.0"
   }

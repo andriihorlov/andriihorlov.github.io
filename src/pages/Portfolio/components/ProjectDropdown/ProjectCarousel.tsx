@@ -1,5 +1,6 @@
 import { FC, memo, useContext } from 'react'
 import Carousel from 'react-multi-carousel';
+import ModalImage from 'react-modal-image';
 import 'react-multi-carousel/lib/styles.css';
 
 import { GlobalContext } from '../../../../context/GlobalContext';
@@ -42,7 +43,12 @@ const ProjectCarousel: FC<ProjectCarouselType> = ({ gallery }) => {
     <Carousel responsive={responsive}>
       {gallery.map(galleryUrl => (
         <div key={galleryUrl} className={addTheme(styles.galleryItem)}>
-          <img src={require(`../../../../assets/projectsImg/${galleryUrl}`)} alt="Project img" />
+          {/*<img src={require(`../../../../assets/projectsImg/${galleryUrl}`)} alt="Project img" />*/}
+          <ModalImage
+            small={require(`../../../../assets/projectsImg/${galleryUrl}`)}
+            large={require(`../../../../assets/projectsImg/${galleryUrl}`)}
+            alt="Project img"
+          />
         </div>
       ))}
     </Carousel>
