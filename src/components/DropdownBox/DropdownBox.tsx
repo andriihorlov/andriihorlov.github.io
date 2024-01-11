@@ -43,7 +43,7 @@ const DropdownBox = ({ children, number, name }: PropsType) => {
           open ? `${styles.content} ${styles.active}` : styles.content
         )}
       >
-        {children}
+        {open && children}
       </div>
     </div>
   );

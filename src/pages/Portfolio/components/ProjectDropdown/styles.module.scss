@@ -140,3 +140,21 @@
     }
   }
 }
+
+.carouselWrapper {
+  margin: 20px 0;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.galleryItem {
+  padding: 0 10px;
+
+  img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: fill;
+  }
+}

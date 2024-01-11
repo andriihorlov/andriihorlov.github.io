@@ -13,6 +13,13 @@ export const useProjectData = (
       codeLink: "https://github.com/FidgHorlov/VrGallery",
 	    moreInfo: "",
       demoLink: "https://github.com/FidgHorlov/VrGallery/releases/tag/release",
+      gallery: [
+        'VR_Gallery/item1.jpeg',
+        'VR_Gallery/item2.jpeg',
+        'VR_Gallery/item3.jpeg',
+        'VR_Gallery/item4.jpeg',
+        'VR_Gallery/item5.jpeg',
+      ]
     },
     {
       name: "VR Robots",

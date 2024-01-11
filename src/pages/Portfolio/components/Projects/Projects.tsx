@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import ProjectDropdown from "../ProjectDropdown/ProjectDropdown";
+import ProjectDropdown from "../ProjectDropdown";
 import { useProjectData } from "../../../../data/projectsData.data";
 import AboutProjectBox from "../../../../components/AboutProjectBox/AboutProjectBox";
 

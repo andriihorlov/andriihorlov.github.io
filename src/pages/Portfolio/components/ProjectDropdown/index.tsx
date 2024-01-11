@@ -1,11 +1,14 @@
-import { useTranslation } from "react-i18next";
-import { GlobalContext } from "../../../../context/GlobalContext";
 import { useContext } from "react";
+import { useTranslation } from "react-i18next";
+
+import { GlobalContext } from "../../../../context/GlobalContext";
 import useTheme from "../../../../hooks/useTheme";
-import styles from "./ProjectDropdown.module.scss";
 import GitButton_light from "../../../../assets/gitButton-light.svg";
 import GitButton_dark from "../../../../assets/gitButton-dark.svg";
 import DropdownBox from "../../../../components/DropdownBox/DropdownBox";
+
+import ProjectCarousel from "./ProjectCarousel";
+import styles from "./styles.module.scss";
 
 interface PropsType {
   projectInfo: {
@@ -15,6 +18,7 @@ interface PropsType {
     codeLink?: string;
     demoLink?: string;
     moreInfo?: string;
+    gallery?: string[]
   },
   number: string
 }
@@ -27,6 +31,7 @@ const ProjectDropdown = ({ projectInfo, number }: PropsType) => {
     codeLink,
     demoLink,
     moreInfo,
+    gallery,
   } = projectInfo
   const { t } = useTranslation();
   const { theme } = useContext(GlobalContext);
@@ -79,6 +84,10 @@ const ProjectDropdown = ({ projectInfo, number }: PropsType) => {
           {t("project.more_info")}
         </a>}
       </div>
+
+      {gallery?.length && <div className={addTheme(styles.carouselWrapper)}>
+        <ProjectCarousel gallery={gallery} />
+      </div>}
     </DropdownBox>
   );
 };
