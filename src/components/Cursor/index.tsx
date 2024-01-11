@@ -181,14 +181,14 @@ function AnimatedCursor({
 
   const styles: StylesType = {
     cursor: {
-      zIndex: 999,
+      zIndex: 9999,
       position: "fixed",
       opacity: 1,
       pointerEvents: "none",
       transition: "opacity 0.15s ease-in-out, transform 0.15s ease-in-out",
     },
     cursorInner: {
-      zIndex: 999,
+      zIndex: 9999,
       position: "fixed",
       borderRadius: "50%",
       width: innerSize,
@@ -198,7 +198,7 @@ function AnimatedCursor({
       transition: "opacity 0.15s ease-in-out, transform 0.25s ease-in-out",
     },
     cursorOuter: {
-      zIndex: 999,
+      zIndex: 9999,
       position: "fixed",
       borderRadius: "50%",
       pointerEvents: "none",
