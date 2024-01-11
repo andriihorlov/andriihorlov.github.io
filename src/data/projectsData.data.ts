@@ -14,11 +14,14 @@ export const useProjectData = (
 	    moreInfo: "",
       demoLink: "https://github.com/FidgHorlov/VrGallery/releases/tag/release",
       gallery: [
-        'VR_Gallery/item1.jpeg',
-        'VR_Gallery/item2.jpeg',
-        'VR_Gallery/item3.jpeg',
-        'VR_Gallery/item4.jpeg',
-        'VR_Gallery/item5.jpeg',
+        'GalleryVR/GalleryVR_1.jpg',
+        'GalleryVR/GalleryVR_2.jpg',
+        'GalleryVR/GalleryVR_3.jpg',
+        'GalleryVR/GalleryVR_4.jpg',
+        'GalleryVR/GalleryVR_5.jpg',
+        'GalleryVR/GalleryVR_6.jpg',
+        'GalleryVR/GalleryVR_7.jpg',
+      ]
       ]
     },
     {
@@ -30,6 +33,17 @@ export const useProjectData = (
       codeLink: "",
 	    moreInfo : "https://tsukat.com/portfolio/koerber-vr-robots",
       demoLink: "",
+	  gallery: [
+        'RobotsVR/RobotsVR_1.jpg',
+        'RobotsVR/RobotsVR_2.jpg',
+        'RobotsVR/RobotsVR_3.jpg',
+        'RobotsVR/RobotsVR_4.jpg',
+        'RobotsVR/RobotsVR_5.jpg',
+        'RobotsVR/RobotsVR_6.jpg',
+        'RobotsVR/RobotsVR_7.jpg',
+        'RobotsVR/RobotsVR_8.jpg',
+        'RobotsVR/RobotsVR_9.jpg',
+      ]
     },
     {
       name: "Learning Platform",
@@ -40,6 +54,14 @@ export const useProjectData = (
       codeLink: "",
 	    moreInfo: "https://tsukat.com/portfolio/koerber-digital-academy",
       demoLink: "",
+	  gallery: [
+        'DigitalAcademy/DigitalAcademy_1.jpg',
+        'DigitalAcademy/DigitalAcademy_2.jpg',
+        'DigitalAcademy/DigitalAcademy_3.jpg',
+        'DigitalAcademy/DigitalAcademy_4.jpg',
+        'DigitalAcademy/DigitalAcademy_5.jpg',
+        'DigitalAcademy/DigitalAcademy_6.jpg',
+      ]
     },
     {
       name: "Clerk Shadow",
@@ -50,6 +72,15 @@ export const useProjectData = (
       codeLink: "",
 	    moreInfo: "",
       demoLink: "",
+	  gallery: [
+        'ClerkShadow/Clerk_1.jpg',
+        'ClerkShadow/Clerk_2.jpg',
+        'ClerkShadow/Clerk_3.jpg',
+        'ClerkShadow/Clerk_4.jpg',
+        'ClerkShadow/Clerk_5.jpg',
+        'ClerkShadow/Clerk_6.jpg',
+        'ClerkShadow/Clerk_7.jpg',
+      ]
     },
     {
       name: "Don’t miss your travel",
@@ -60,6 +91,16 @@ export const useProjectData = (
       codeLink: "",
 	    moreInfo: "",
       demoLink: "",
+	  gallery: [
+        'DontMissTravel/DontMissTravel_1.jpg',
+        'DontMissTravel/DontMissTravel_2.jpg',
+        'DontMissTravel/DontMissTravel_3.jpg',
+        'DontMissTravel/DontMissTravel_4.jpg',
+        'DontMissTravel/DontMissTravel_5.jpg',
+        'DontMissTravel/DontMissTravel_6.jpg',
+        'DontMissTravel/DontMissTravel_7.jpg',
+        'DontMissTravel/DontMissTravel_8.jpg',
+      ]
     }
   ];
 
