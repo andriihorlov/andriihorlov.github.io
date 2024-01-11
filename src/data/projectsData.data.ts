@@ -22,6 +22,21 @@ export const useProjectData = (
         'GalleryVR/GalleryVR_6.jpg',
         'GalleryVR/GalleryVR_7.jpg',
       ]
+    },
+	{
+      name: "MoviePass VR",
+      technologies: [
+        "Unity", "C#", "VR", "XR Toolkit", "API Integration", "DoTween"
+      ],
+      desc: t("project.description_moviepass_vr"),
+      codeLink: "",
+	    moreInfo: "https://tsukat.com/portfolio/moviepass-vr-cinema-app",
+      demoLink: "",
+      gallery: [
+        'MoviePassVR/MoviePassVR_1.jpg',
+        'MoviePassVR/MoviePassVR_2.jpg',
+        'MoviePassVR/MoviePassVR_3.jpg',
+        'MoviePassVR/MoviePassVR_4.jpg',
       ]
     },
     {
