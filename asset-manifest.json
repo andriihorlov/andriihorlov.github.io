@@ -1,10 +1,18 @@
 {
   "files": {
-    "main.css": "/andriihorlov.github.io/static/css/main.07464649.css",
-    "main.js": "/andriihorlov.github.io/static/js/main.e5e704f3.js",
+    "main.css": "/andriihorlov.github.io/static/css/main.135f264f.css",
+    "main.js": "/andriihorlov.github.io/static/js/main.65c51cd5.js",
     "static/js/787.28cb0dcd.chunk.js": "/andriihorlov.github.io/static/js/787.28cb0dcd.chunk.js",
     "static/media/CV-AndriiHorlov.pdf": "/andriihorlov.github.io/static/media/CV-AndriiHorlov.23bb73e553eb2564e68d.pdf",
     "static/media/avatar.png": "/andriihorlov.github.io/static/media/avatar.9aca2d7a945cf614dd08.png",
+    "static/media/item2.jpeg": "/andriihorlov.github.io/static/media/item2.946e7ce01660890bd873.jpeg",
+    "static/media/item5.jpeg": "/andriihorlov.github.io/static/media/item5.946e7ce01660890bd873.jpeg",
+    "static/media/item1.jpeg": "/andriihorlov.github.io/static/media/item1.2d1c47848842436a7b9c.jpeg",
+    "static/media/item3.jpeg": "/andriihorlov.github.io/static/media/item3.2d1c47848842436a7b9c.jpeg",
+    "static/media/item4.jpeg": "/andriihorlov.github.io/static/media/item4.2d1c47848842436a7b9c.jpeg",
+    "static/media/revicons.eot": "/andriihorlov.github.io/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/andriihorlov.github.io/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/andriihorlov.github.io/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/Flag_of_the_United_States 1.svg": "/andriihorlov.github.io/static/media/Flag_of_the_United_States 1.6420480f2e5019ab5c0c10f7a1550d8e.svg",
     "static/media/theme-dark.svg": "/andriihorlov.github.io/static/media/theme-dark.6ac868e2f77dffeebe670fd8f45ff7c2.svg",
     "static/media/theme-light.svg": "/andriihorlov.github.io/static/media/theme-light.315d7fca3ebba70968a0129db7e0a022.svg",
@@ -28,12 +36,12 @@
     "static/media/marker-dark.svg": "/andriihorlov.github.io/static/media/marker-dark.ad66e1a0a0c435f6376fba9f3bb8e2c3.svg",
     "static/media/getFetch.cjs": "/andriihorlov.github.io/static/media/getFetch.40f37ddea2378391108f.cjs",
     "static/media/marker-light.svg": "/andriihorlov.github.io/static/media/marker-light.067885e32db4dda674b6654739b3a431.svg",
-    "main.07464649.css.map": "/andriihorlov.github.io/static/css/main.07464649.css.map",
-    "main.e5e704f3.js.map": "/andriihorlov.github.io/static/js/main.e5e704f3.js.map",
+    "main.135f264f.css.map": "/andriihorlov.github.io/static/css/main.135f264f.css.map",
+    "main.65c51cd5.js.map": "/andriihorlov.github.io/static/js/main.65c51cd5.js.map",
     "787.28cb0dcd.chunk.js.map": "/andriihorlov.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07464649.css",
-    "static/js/main.e5e704f3.js"
+    "static/css/main.135f264f.css",
+    "static/js/main.65c51cd5.js"
   ]
 }
