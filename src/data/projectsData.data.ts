@@ -5,9 +5,9 @@ export const useProjectData = (
 ) => {
   const PROJECTS_DATA = [
     {
-      name: "VR Gallery",
+      name: "Simple Gallery VR",
       technologies: [
-        "Unity", "C#", "VR", "MetaSDK", "Work with file-system"
+        "Unity", "C#", "VR", "MetaSDK", "File System Management", "DoTween"
       ],
       desc: t("project.description_vr_gallery"),
       codeLink: "https://github.com/FidgHorlov/VrGallery",
@@ -27,7 +27,7 @@ export const useProjectData = (
     {
       name: "VR Robots",
       technologies: [
-        "Unity", "C#", "VR", "Hand-tracking", "OVR (Oculus Integration)"
+        "Unity", "C#", "VR", "Hand-tracking", "OVR (Oculus Integration)", "DoTween"
       ],
       desc: t("project.description_robots_vr"),
       codeLink: "",
@@ -48,7 +48,7 @@ export const useProjectData = (
     {
       name: "Learning Platform",
       technologies: [
-        "Unity", "C#", "3D", "WebGL", "Unity Customization", "API integration"
+        "Unity", "C#", "3D", "WebGL", "Unity Customization", "API integration", "Cinemamachine Brain"
       ],
       desc: t("project.description_digital_academy"),
       codeLink: "",
@@ -66,7 +66,7 @@ export const useProjectData = (
     {
       name: "Clerk Shadow",
       technologies: [
-        "Unity", "C#", "2D", "Windows", "WebGL"
+        "Unity", "C#", "2D", "Windows", "WebGL", "DoTween"
       ],
       desc: t("project.description_clerk_shadow"),
       codeLink: "",
@@ -90,7 +90,7 @@ export const useProjectData = (
       desc: t("project.description_dont_miss_your_travel"),
       codeLink: "",
 	    moreInfo: "",
-      demoLink: "",
+      demoLink: "https://fidgetik.itch.io/dont-miss-your-travel",
 	  gallery: [
         'DontMissTravel/DontMissTravel_1.jpg',
         'DontMissTravel/DontMissTravel_2.jpg',
