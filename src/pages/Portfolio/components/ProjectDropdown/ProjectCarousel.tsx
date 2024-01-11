@@ -1,6 +1,6 @@
-import { FC, memo, useContext } from 'react'
+import { FC, memo, useContext, useState } from 'react'
 import Carousel from 'react-multi-carousel';
-import ModalImage from 'react-modal-image';
+import { Lightbox } from 'react-modal-image';
 import 'react-multi-carousel/lib/styles.css';
 
 import { GlobalContext } from '../../../../context/GlobalContext';
@@ -10,6 +10,7 @@ import styles from './styles.module.scss';
 
 type ProjectCarouselType = {
   gallery: string[]
+  name: string
 }
 
 const responsive = {
@@ -35,23 +36,45 @@ const responsive = {
   }
 };
 
-const ProjectCarousel: FC<ProjectCarouselType> = ({ gallery }) => {
+const ProjectCarousel: FC<ProjectCarouselType> = ({ gallery, name }) => {
   const { theme } = useContext(GlobalContext);
   const { addTheme } = useTheme(theme, styles.light);
+  const [modalUrl, setModalUrl] = useState('');
+
+  const closeLightbox = () => {
+    setModalUrl('')
+  }
+
+  const handleSetModalUrl = (url: string) => {
+    setModalUrl(url)
+  }
 
   return (
-    <Carousel responsive={responsive}>
-      {gallery.map(galleryUrl => (
-        <div key={galleryUrl} className={addTheme(styles.galleryItem)}>
-          {/*<img src={require(`../../../../assets/projectsImg/${galleryUrl}`)} alt="Project img" />*/}
-          <ModalImage
-            small={require(`../../../../assets/projectsImg/${galleryUrl}`)}
-            large={require(`../../../../assets/projectsImg/${galleryUrl}`)}
-            alt="Project img"
-          />
-        </div>
-      ))}
-    </Carousel>
+    <>
+      <Carousel responsive={responsive}>
+        {gallery.map(galleryUrl => (
+          <div
+            key={galleryUrl}
+            className={addTheme(styles.galleryItem)}
+            role="button"
+            onClick={() => handleSetModalUrl(galleryUrl)}
+          >
+            <img src={require(`../../../../assets/projectsImg/${galleryUrl}`)} alt="Project img" />
+          </div>
+        ))}
+      </Carousel>
+
+      {modalUrl && (
+        <Lightbox
+          small={require(`../../../../assets/projectsImg/${modalUrl}`)}
+          medium={require(`../../../../assets/projectsImg/${modalUrl}`)}
+          large={require(`../../../../assets/projectsImg/${modalUrl}`)}
+          alt={name || ''}
+          // @ts-ignore
+          onClose={closeLightbox}
+        />
+      )}
+    </>
   )
 }
 

@@ -85,9 +85,11 @@ const ProjectDropdown = ({ projectInfo, number }: PropsType) => {
         </a>}
       </div>
 
-      {gallery?.length && <div className={addTheme(styles.carouselWrapper)}>
-        <ProjectCarousel gallery={gallery} />
-      </div>}
+      {gallery?.length && (
+        <div className={addTheme(styles.carouselWrapper)}>
+          <ProjectCarousel gallery={gallery} name={name} />
+        </div>
+      )}
     </DropdownBox>
   );
 };
