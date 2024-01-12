@@ -11,8 +11,8 @@ export const useProjectData = (
       ],
       desc: t("project.description_vr_gallery"),
       codeLink: "https://github.com/FidgHorlov/VrGallery",
-	    moreInfo: "",
-      demoLink: "https://github.com/FidgHorlov/VrGallery/releases/tag/release",
+	  moreInfo: "",
+      demoLink: "https://github.com/FidgHorlov/VrGallery/releases",
       gallery: [
         'GalleryVR/GalleryVR_1.jpg',
         'GalleryVR/GalleryVR_2.jpg',
@@ -30,7 +30,7 @@ export const useProjectData = (
       ],
       desc: t("project.description_moviepass_vr"),
       codeLink: "",
-	    moreInfo: "https://tsukat.com/portfolio/moviepass-vr-cinema-app",
+	  moreInfo: "https://tsukat.com/portfolio/moviepass-vr-cinema-app",
       demoLink: "",
       gallery: [
         'MoviePassVR/MoviePassVR_1.jpg',
@@ -46,7 +46,7 @@ export const useProjectData = (
       ],
       desc: t("project.description_robots_vr"),
       codeLink: "",
-	    moreInfo : "https://tsukat.com/portfolio/koerber-vr-robots",
+	  moreInfo : "https://tsukat.com/portfolio/koerber-vr-robots",
       demoLink: "",
 	  gallery: [
         'RobotsVR/RobotsVR_1.jpg',
@@ -67,7 +67,7 @@ export const useProjectData = (
       ],
       desc: t("project.description_digital_academy"),
       codeLink: "",
-	    moreInfo: "https://tsukat.com/portfolio/koerber-digital-academy",
+	  moreInfo: "https://tsukat.com/portfolio/koerber-digital-academy",
       demoLink: "",
 	  gallery: [
         'DigitalAcademy/DigitalAcademy_1.jpg',
@@ -85,7 +85,7 @@ export const useProjectData = (
       ],
       desc: t("project.description_clerk_shadow"),
       codeLink: "",
-	    moreInfo: "",
+	  moreInfo: "",
       demoLink: "",
 	  gallery: [
         'ClerkShadow/Clerk_1.jpg',
@@ -104,7 +104,7 @@ export const useProjectData = (
       ],
       desc: t("project.description_dont_miss_your_travel"),
       codeLink: "",
-	    moreInfo: "",
+	  moreInfo: "",
       demoLink: "https://fidgetik.itch.io/dont-miss-your-travel",
 	  gallery: [
         'DontMissTravel/DontMissTravel_1.jpg',
