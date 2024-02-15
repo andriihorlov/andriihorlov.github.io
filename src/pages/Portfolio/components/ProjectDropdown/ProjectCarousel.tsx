@@ -98,9 +98,11 @@ const ProjectCarousel: FC<ProjectCarouselType> = ({ gallery, name }) => {
                 <img src={theme ? arrowLeftLight : arrowLeft} alt="arrow" />
               </button>
             </div>
+
             <div className={styles.containerImage}>
               <div className={addTheme(styles.header)}>
                 <div className={addTheme(styles.modalTitle)}>{name}</div>
+
                 <button
                   onClick={() => setModalUrl("")}
                   className={addTheme(styles.closeButton)}
@@ -108,6 +110,7 @@ const ProjectCarousel: FC<ProjectCarouselType> = ({ gallery, name }) => {
                   X
                 </button>
               </div>
+
               <div className={styles.image}>
                 <img
                   src={require(`../../../../assets/projectsImg/${modalUrl}`)}
@@ -115,6 +118,7 @@ const ProjectCarousel: FC<ProjectCarouselType> = ({ gallery, name }) => {
                 />
               </div>
             </div>
+
             <div className={styles.buttonContainer}>
               <button
                 onClick={() =>

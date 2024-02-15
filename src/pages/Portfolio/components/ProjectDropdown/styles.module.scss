@@ -181,8 +181,6 @@
     height: 100%;
 
     .buttonContainer {
-      width: fit-content;
-
       &:first-child {
         margin-right: 0;
       }
@@ -206,10 +204,6 @@
           color: #0c151d;
           border: 1px solid #6d7377;
           background-color: #f3f3f4;
-
-          // &:disabled {
-          //   filter: brightness(80%);
-          // }
         }
 
         &:hover {
