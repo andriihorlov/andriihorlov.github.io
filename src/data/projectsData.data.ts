@@ -11,7 +11,7 @@ export const useProjectData = (
       ],
       desc: t("project.description_vr_gallery"),
       codeLink: "https://github.com/FidgHorlov/VrGallery",
-	  moreInfo: "",
+      moreInfo: "",
       demoLink: "https://github.com/FidgHorlov/VrGallery/releases",
       gallery: [
         'GalleryVR/GalleryVR_1.jpg',
@@ -22,7 +22,7 @@ export const useProjectData = (
         'GalleryVR/GalleryVR_6.jpg',
         'GalleryVR/GalleryVR_7.jpg',
       ]
-	  // youtube: "https://youtu.be/E590-BCadl0"
+      // youtube: "https://youtu.be/E590-BCadl0"
     },
 	{
       name: "MoviePass VR",
@@ -31,7 +31,7 @@ export const useProjectData = (
       ],
       desc: t("project.description_moviepass_vr"),
       codeLink: "",
-	  moreInfo: "https://tsukat.com/portfolio/moviepass-vr-cinema-app",
+      moreInfo: "https://tsukat.com/portfolio/moviepass-vr-cinema-app",
       demoLink: "",
       gallery: [
         'MoviePassVR/MoviePassVR_1.jpg',
@@ -39,7 +39,7 @@ export const useProjectData = (
         'MoviePassVR/MoviePassVR_3.jpg',
         'MoviePassVR/MoviePassVR_4.jpg',
       ]
-	  // vimeo: "https://vimeo.com/889916210"
+      // vimeo: "https://vimeo.com/889916210"
     },
     {
       name: "VR Robots",
@@ -48,9 +48,9 @@ export const useProjectData = (
       ],
       desc: t("project.description_robots_vr"),
       codeLink: "",
-	  moreInfo : "https://tsukat.com/portfolio/koerber-vr-robots",
+      moreInfo : "https://tsukat.com/portfolio/koerber-vr-robots",
       demoLink: "",
-	  gallery: [
+      gallery: [
         'RobotsVR/RobotsVR_1.jpg',
         'RobotsVR/RobotsVR_2.jpg',
         'RobotsVR/RobotsVR_3.jpg',
@@ -61,7 +61,7 @@ export const useProjectData = (
         'RobotsVR/RobotsVR_8.jpg',
         'RobotsVR/RobotsVR_9.jpg',
       ]
-	  // vimeo: "https://vimeo.com/874758080"
+      // vimeo: "https://vimeo.com/874758080"
     },
     {
       name: "Learning Platform",
@@ -70,9 +70,9 @@ export const useProjectData = (
       ],
       desc: t("project.description_digital_academy"),
       codeLink: "",
-	  moreInfo: "https://tsukat.com/portfolio/koerber-digital-academy",
+      moreInfo: "https://tsukat.com/portfolio/koerber-digital-academy",
       demoLink: "",
-	  gallery: [
+      gallery: [
         'DigitalAcademy/DigitalAcademy_1.jpg',
         'DigitalAcademy/DigitalAcademy_2.jpg',
         'DigitalAcademy/DigitalAcademy_3.jpg',
@@ -80,7 +80,7 @@ export const useProjectData = (
         'DigitalAcademy/DigitalAcademy_5.jpg',
         'DigitalAcademy/DigitalAcademy_6.jpg',
       ]
-	  // vimeo: "https://vimeo.com/776999870"
+      // vimeo: "https://vimeo.com/776999870"
     },
     {
       name: "Clerk Shadow",
@@ -89,9 +89,9 @@ export const useProjectData = (
       ],
       desc: t("project.description_clerk_shadow"),
       codeLink: "https://github.com/FidgHorlov/ClerkShadow",
-	  moreInfo: "",
+      moreInfo: "",
       demoLink: "https://fidgetik.itch.io/clerkshadow",
-	  gallery: [
+      gallery: [
         'ClerkShadow/Clerk_1.jpg',
         'ClerkShadow/Clerk_2.jpg',
         'ClerkShadow/Clerk_3.jpg',
@@ -108,9 +108,9 @@ export const useProjectData = (
       ],
       desc: t("project.description_dont_miss_your_travel"),
       codeLink: "https://github.com/FidgHorlov/DontMissYourTravel",
-	  moreInfo: "",
+      moreInfo: "",
       demoLink: "https://fidgetik.itch.io/dont-miss-your-travel",
-	  gallery: [
+      gallery: [
         'DontMissTravel/DontMissTravel_1.jpg',
         'DontMissTravel/DontMissTravel_2.jpg',
         'DontMissTravel/DontMissTravel_3.jpg',
@@ -120,7 +120,7 @@ export const useProjectData = (
         'DontMissTravel/DontMissTravel_7.jpg',
         'DontMissTravel/DontMissTravel_8.jpg',
       ]
-	  // youtube: "https://youtu.be/tmIzZYaI3ZE"
+      // youtube: "https://youtu.be/tmIzZYaI3ZE"
     }
   ];
 
