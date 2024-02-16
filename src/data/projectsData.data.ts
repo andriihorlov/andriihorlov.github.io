@@ -22,6 +22,7 @@ export const useProjectData = (
         'GalleryVR/GalleryVR_6.jpg',
         'GalleryVR/GalleryVR_7.jpg',
       ]
+	  // youtube: "https://youtu.be/E590-BCadl0"
     },
 	{
       name: "MoviePass VR",
@@ -38,6 +39,7 @@ export const useProjectData = (
         'MoviePassVR/MoviePassVR_3.jpg',
         'MoviePassVR/MoviePassVR_4.jpg',
       ]
+	  // vimeo: "https://vimeo.com/889916210"
     },
     {
       name: "VR Robots",
@@ -59,6 +61,7 @@ export const useProjectData = (
         'RobotsVR/RobotsVR_8.jpg',
         'RobotsVR/RobotsVR_9.jpg',
       ]
+	  // vimeo: "https://vimeo.com/874758080"
     },
     {
       name: "Learning Platform",
@@ -77,16 +80,17 @@ export const useProjectData = (
         'DigitalAcademy/DigitalAcademy_5.jpg',
         'DigitalAcademy/DigitalAcademy_6.jpg',
       ]
+	  // vimeo: "https://vimeo.com/776999870"
     },
     {
       name: "Clerk Shadow",
       technologies: [
-        "Unity", "C#", "2D", "Windows", "WebGL", "DoTween"
+        "Unity", "C#", "2D", "Windows", "WebGL", "DoTween", "Localization", "Cinemamachine Brain"
       ],
       desc: t("project.description_clerk_shadow"),
-      codeLink: "",
+      codeLink: "https://github.com/FidgHorlov/ClerkShadow",
 	  moreInfo: "",
-      demoLink: "",
+      demoLink: "https://fidgetik.itch.io/clerkshadow",
 	  gallery: [
         'ClerkShadow/Clerk_1.jpg',
         'ClerkShadow/Clerk_2.jpg',
@@ -100,10 +104,10 @@ export const useProjectData = (
     {
       name: "Don’t miss your travel",
       technologies: [
-        "Unity", "C#", "2D", "Windows", "WebGL"
+        "Unity", "C#", "2D", "Windows", "WebGL" 
       ],
       desc: t("project.description_dont_miss_your_travel"),
-      codeLink: "",
+      codeLink: "https://github.com/FidgHorlov/DontMissYourTravel",
 	  moreInfo: "",
       demoLink: "https://fidgetik.itch.io/dont-miss-your-travel",
 	  gallery: [
@@ -116,6 +120,7 @@ export const useProjectData = (
         'DontMissTravel/DontMissTravel_7.jpg',
         'DontMissTravel/DontMissTravel_8.jpg',
       ]
+	  // youtube: "https://youtu.be/tmIzZYaI3ZE"
     }
   ];
 
