@@ -1,16 +1,12 @@
-import { FC, memo, useContext, useState, useRef, useEffect } from "react";
+import { FC, memo, useContext, useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 import { GlobalContext } from "../../../../context/GlobalContext";
 import useTheme from "../../../../hooks/useTheme";
+import GalleryModal from "../../../../components/GalleryModal/GalleryModal";
 
 import styles from "./styles.module.scss";
-
-import arrowLeft from "../../../../assets/arrow-left.svg";
-import arrowRight from "../../../../assets/arrow-right.svg";
-import arrowLeftLight from "../../../../assets/arrow-left-light.svg";
-import arrowRightLight from "../../../../assets/arrow-right-light.svg";
 
 type ProjectCarouselType = {
   gallery: string[];
@@ -45,21 +41,6 @@ const ProjectCarousel: FC<ProjectCarouselType> = ({ gallery, name }) => {
   const { addTheme } = useTheme(theme, styles.light);
   const [modalUrl, setModalUrl] = useState("");
 
-  const modalRef = useRef(null);
-
-  useEffect(() => {
-    const clickOutsideContent = (e: any) => {
-      if (e.target === modalRef.current) {
-        setModalUrl("");
-      }
-    };
-    window.addEventListener("click", clickOutsideContent);
-
-    return () => {
-      window.removeEventListener("click", clickOutsideContent);
-    };
-  }, [modalUrl]);
-
   const handleSetModalUrl = (url: string) => {
     setModalUrl(url);
   };
@@ -77,6 +58,7 @@ const ProjectCarousel: FC<ProjectCarouselType> = ({ gallery, name }) => {
             }}
           >
             <img
+              className="carouselImage"
               src={require(`../../../../assets/projectsImg/${galleryUrl}`)}
               alt="Project img"
             />
@@ -85,53 +67,12 @@ const ProjectCarousel: FC<ProjectCarouselType> = ({ gallery, name }) => {
       </Carousel>
 
       {modalUrl && (
-        <div className={styles.modal}>
-          <div ref={modalRef} className={styles.content}>
-            <div className={styles.buttonContainer}>
-              <button
-                onClick={() =>
-                  setModalUrl(gallery[gallery.indexOf(modalUrl) - 1])
-                }
-                disabled={gallery.indexOf(modalUrl) === 0}
-                className={addTheme(styles.switchButton)}
-              >
-                <img src={theme ? arrowLeftLight : arrowLeft} alt="arrow" />
-              </button>
-            </div>
-
-            <div className={styles.containerImage}>
-              <div className={addTheme(styles.header)}>
-                <div className={addTheme(styles.modalTitle)}>{name}</div>
-
-                <button
-                  onClick={() => setModalUrl("")}
-                  className={addTheme(styles.closeButton)}
-                >
-                  X
-                </button>
-              </div>
-
-              <div className={styles.image}>
-                <img
-                  src={require(`../../../../assets/projectsImg/${modalUrl}`)}
-                  alt="Project img"
-                />
-              </div>
-            </div>
-
-            <div className={styles.buttonContainer}>
-              <button
-                onClick={() =>
-                  setModalUrl(gallery[gallery.indexOf(modalUrl) + 1])
-                }
-                disabled={gallery.length - 1 === gallery.indexOf(modalUrl)}
-                className={addTheme(styles.switchButton)}
-              >
-                <img src={theme ? arrowRightLight : arrowRight} alt="arrow" />
-              </button>
-            </div>
-          </div>
-        </div>
+        <GalleryModal
+          name={name}
+          modalUrl={modalUrl}
+          setModalUrl={(url) => setModalUrl(url)}
+          gallery={gallery}
+        />
       )}
     </>
   );
