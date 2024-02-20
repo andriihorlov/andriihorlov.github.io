@@ -24,6 +24,7 @@ const DropdownBox = ({ children, number, name }: PropsType) => {
         className={addTheme(
           open ? `${styles.summary} ${styles.active}` : styles.summary
         )}
+        data-atr="summary"
         onClick={() => {
           setOpen(!open);
         }}

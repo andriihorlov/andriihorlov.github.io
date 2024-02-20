@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 
 import { GlobalContext } from "../../../../context/GlobalContext";
 import useTheme from "../../../../hooks/useTheme";
-import GalleryModal from "../../../../components/GalleryModal/GalleryModal";
+import GalleryModal from "../../../../components/GalleryModal";
 
 import styles from "./styles.module.scss";
 

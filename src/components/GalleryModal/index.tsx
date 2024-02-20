@@ -7,6 +7,7 @@ import arrowLeft from "../../assets/arrow-left.svg";
 import arrowRight from "../../assets/arrow-right.svg";
 import arrowLeftLight from "../../assets/arrow-left-light.svg";
 import arrowRightLight from "../../assets/arrow-right-light.svg";
+import { createPortal } from "react-dom";
 
 interface GalleryModalProps {
   name: string;
@@ -39,7 +40,7 @@ const GalleryModal = ({
     };
   }, [modalUrl]);
 
-  return (
+  return createPortal(
     <div className={styles.modal}>
       <div ref={modalRef} className={styles.content}>
         <div className={styles.buttonContainer}>
@@ -59,6 +60,7 @@ const GalleryModal = ({
             <button
               onClick={() => setModalUrl("")}
               className={addTheme(styles.closeButton)}
+              data-atr="closeButton"
             >
               X
             </button>
@@ -82,7 +84,8 @@ const GalleryModal = ({
           </button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.getElementById("modal") as Element
   );
 };
 
