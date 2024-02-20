@@ -26,10 +26,12 @@
       background-color: #0c151d;
       border-radius: 50%;
       overflow: hidden;
-      padding: 10px 15px;
+      width: 80px;
+      height: 80px;
+      padding: 10px;
 
       @media (max-width: 670px) {
-        padding: 12px 17px;
+        padding: 12px;
       }
 
       &.light {
@@ -37,12 +39,8 @@
       }
 
       .avatar {
-        padding-top: 5px;
-        width: 68px;
-
-        @media (max-width: 670px) {
-          width: 40px;
-        }
+        width: 100%;
+        object-fit: cover;
       }
     }
 
