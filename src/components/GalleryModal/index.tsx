@@ -1,13 +1,15 @@
 import { useContext, useEffect, useRef } from "react";
-import styles from "./GalleryModal.module.scss";
+import { createPortal } from "react-dom";
+
 import { GlobalContext } from "../../context/GlobalContext";
 import useTheme from "../../hooks/useTheme";
+
+import styles from "./GalleryModal.module.scss";
 
 import arrowLeft from "../../assets/arrow-left.svg";
 import arrowRight from "../../assets/arrow-right.svg";
 import arrowLeftLight from "../../assets/arrow-left-light.svg";
 import arrowRightLight from "../../assets/arrow-right-light.svg";
-import { createPortal } from "react-dom";
 
 interface GalleryModalProps {
   name: string;
