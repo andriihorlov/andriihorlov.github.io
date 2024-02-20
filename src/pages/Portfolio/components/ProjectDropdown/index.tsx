@@ -18,9 +18,10 @@ interface PropsType {
     codeLink?: string;
     demoLink?: string;
     moreInfo?: string;
-    gallery?: string[]
-  },
-  number: string
+    gallery?: string[];
+    video?: string;
+  };
+  number: string;
 }
 
 const ProjectDropdown = ({ projectInfo, number }: PropsType) => {
@@ -32,7 +33,8 @@ const ProjectDropdown = ({ projectInfo, number }: PropsType) => {
     demoLink,
     moreInfo,
     gallery,
-  } = projectInfo
+    video,
+  } = projectInfo;
   const { t } = useTranslation();
   const { theme } = useContext(GlobalContext);
   const { addTheme } = useTheme(theme, styles.light);
@@ -41,7 +43,9 @@ const ProjectDropdown = ({ projectInfo, number }: PropsType) => {
     <DropdownBox name={name} number={number}>
       {desc && (
         <>
-          <h4 className={addTheme(styles.descTitle)}>{t("project.description")}</h4>
+          <h4 className={addTheme(styles.descTitle)}>
+            {t("project.description")}
+          </h4>
           <p className={addTheme(styles.desc)}>{desc}</p>
         </>
       )}
@@ -56,39 +60,57 @@ const ProjectDropdown = ({ projectInfo, number }: PropsType) => {
       </div>
 
       <div className={styles.links}>
-        {codeLink && <a
-          className={addTheme(styles.linkCode)}
-          href={codeLink}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={theme ? GitButton_light : GitButton_dark} alt="git" />
-          <p className={addTheme(styles.codeName)}>{t("project.code")}</p>
-        </a>}
+        {codeLink && (
+          <a
+            className={addTheme(styles.linkCode)}
+            href={codeLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={theme ? GitButton_light : GitButton_dark} alt="git" />
+            <p className={addTheme(styles.codeName)}>{t("project.code")}</p>
+          </a>
+        )}
 
-        {demoLink && <a
-          className={addTheme(styles.linkDemo)}
-          href={demoLink}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {t("project.demo")}
-        </a>}
+        {demoLink && (
+          <a
+            className={addTheme(styles.linkDemo)}
+            href={demoLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {t("project.demo")}
+          </a>
+        )}
 
-        {moreInfo && <a
-          className={addTheme(styles.linkDemo)}
-          href={moreInfo}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {t("project.more_info")}
-        </a>}
+        {moreInfo && (
+          <a
+            className={addTheme(styles.linkDemo)}
+            href={moreInfo}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {t("project.more_info")}
+          </a>
+        )}
       </div>
 
       {gallery?.length && (
         <div className={addTheme(styles.carouselWrapper)}>
           <ProjectCarousel gallery={gallery} name={name} />
         </div>
+      )}
+
+      {video && (
+        <iframe
+          width="100%"
+          height="315"
+          src={video}
+          title="Video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
       )}
     </DropdownBox>
   );

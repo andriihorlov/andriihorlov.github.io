@@ -26,6 +26,9 @@
       background-color: #0c151d;
       border-radius: 50%;
       overflow: hidden;
+      width: 80px;
+      height: 80px;
+      padding: 10px;
 
       @media (max-width: 670px) {
         padding: 12px;
@@ -36,11 +39,8 @@
       }
 
       .avatar {
-        width: 68px;
-
-        @media (max-width: 670px) {
-          width: 40px;
-        }
+        width: 100%;
+        object-fit: cover;
       }
     }
 
