@@ -15,9 +15,9 @@ export const useProjectData = (
         "DoTween",
       ],
       desc: t("project.description_vr_gallery"),
-      codeLink: "https://github.com/FidgHorlov/VrGallery",
+      codeLink: "https://github.com/andriihorlov/VrGallery",
       moreInfo: "",
-      demoLink: "https://github.com/FidgHorlov/VrGallery/releases",
+      demoLink: "https://github.com/andriihorlov/VrGallery/releases",
       gallery: [
         "GalleryVR/GalleryVR_1.jpg",
         "GalleryVR/GalleryVR_2.jpg",
@@ -116,7 +116,7 @@ export const useProjectData = (
         "Cinemamachine Brain",
       ],
       desc: t("project.description_clerk_shadow"),
-      codeLink: "https://github.com/FidgHorlov/ClerkShadow",
+      codeLink: "https://github.com/andriihorlov/ClerkShadow",
       moreInfo: "",
       demoLink: "https://fidgetik.itch.io/clerkshadow",
       gallery: [
@@ -133,7 +133,7 @@ export const useProjectData = (
       name: "Don’t miss your travel",
       technologies: ["Unity", "C#", "2D", "Windows", "WebGL"],
       desc: t("project.description_dont_miss_your_travel"),
-      codeLink: "https://github.com/FidgHorlov/DontMissYourTravel",
+      codeLink: "https://github.com/andriihorlov/DontMissYourTravel",
       moreInfo: "",
       demoLink: "https://fidgetik.itch.io/dont-miss-your-travel",
       gallery: [
