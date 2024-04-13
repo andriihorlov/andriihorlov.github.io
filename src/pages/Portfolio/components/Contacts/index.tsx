@@ -91,7 +91,7 @@ const Contacts = () => {
           alt="telegram"
         />
         <ContactLink
-          link="https://github.com/FidgHorlov"
+          link="https://github.com/andriihorlov"
           logo={theme ? Git_light : Git_dark}
           alt="git"
         />
