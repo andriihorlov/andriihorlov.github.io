@@ -5,6 +5,31 @@ export const useProjectData = (
 ) => {
   const PROJECTS_DATA = [
     {
+      name: "CorPower VR",
+      technologies: [
+        "Unity",
+        "C#",
+        "VR",
+		"Hand-tracking",
+        "OVR (Oculus Integration)",
+        "DoTween",
+      ],
+      desc: t("project.description_corpower_vr"),
+      codeLink: "",
+      moreInfo: "https://tsukat.com/portfolio/corpower-ocean-vr-experience",
+      demoLink: "",
+      gallery: [
+        "CorPowerVR/CorPower_1.jpg",
+        "CorPowerVR/CorPower_2.jpg",
+        "CorPowerVR/CorPower_3.jpg",
+        "CorPowerVR/CorPower_4.jpg",
+        "CorPowerVR/CorPower_5.jpg",
+        "CorPowerVR/CorPower_6.jpg",
+        "CorPowerVR/GalleryVR_7.jpg",
+      ],
+      video: "https://vimeo.com/911575653",
+    },
+	{
       name: "Simple Gallery VR",
       technologies: [
         "Unity",
