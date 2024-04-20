@@ -25,7 +25,6 @@ export const useProjectData = (
         "CorPowerVR/CorPower_4.jpg",
         "CorPowerVR/CorPower_5.jpg",
         "CorPowerVR/CorPower_6.jpg",
-        "CorPowerVR/GalleryVR_7.jpg",
       ],
       video: "https://vimeo.com/911575653",
     },
