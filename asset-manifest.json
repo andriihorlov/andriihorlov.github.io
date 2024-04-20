@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3e59bbce.css",
-    "main.js": "/static/js/main.0ddefc02.js",
+    "main.js": "/static/js/main.537ed0a7.js",
     "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
     "static/media/RobotsVR_3.jpg": "/static/media/RobotsVR_3.8b554c628d438e62fa84.jpg",
     "static/media/RobotsVR_6.jpg": "/static/media/RobotsVR_6.00184e8fd2649a0264b7.jpg",
@@ -83,11 +83,11 @@
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "static/media/marker-light.svg": "/static/media/marker-light.e957f604a381f4c70d2a0ad0636a0e05.svg",
     "main.3e59bbce.css.map": "/static/css/main.3e59bbce.css.map",
-    "main.0ddefc02.js.map": "/static/js/main.0ddefc02.js.map",
+    "main.537ed0a7.js.map": "/static/js/main.537ed0a7.js.map",
     "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e59bbce.css",
-    "static/js/main.0ddefc02.js"
+    "static/js/main.537ed0a7.js"
   ]
 }
