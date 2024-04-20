@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab6cd77f.css",
-    "main.js": "/static/js/main.999c5821.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "main.css": "/static/css/main.3e59bbce.css",
+    "main.js": "/static/js/main.5a67f5a2.js",
+    "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
     "static/media/RobotsVR_3.jpg": "/static/media/RobotsVR_3.8b554c628d438e62fa84.jpg",
     "static/media/RobotsVR_6.jpg": "/static/media/RobotsVR_6.00184e8fd2649a0264b7.jpg",
     "static/media/Clerk_1.jpg": "/static/media/Clerk_1.652f43df5fdc88cf031d.jpg",
@@ -21,18 +21,24 @@
     "static/media/DigitalAcademy_3.jpg": "/static/media/DigitalAcademy_3.fd636daeb6ca2bb0029e.jpg",
     "static/media/MoviePassVR_2.jpg": "/static/media/MoviePassVR_2.895396eba42531e1fcaa.jpg",
     "static/media/GalleryVR_3.jpg": "/static/media/GalleryVR_3.3c816745d2e73be75a3a.jpg",
+    "static/media/CorPower_1.jpg": "/static/media/CorPower_1.d460e5d5c93c4b740796.jpg",
     "static/media/GalleryVR_4.jpg": "/static/media/GalleryVR_4.0b111ee6c01640b403f7.jpg",
     "static/media/GalleryVR_5.jpg": "/static/media/GalleryVR_5.9f2ccaa5d2137d5b1482.jpg",
     "static/media/GalleryVR_6.jpg": "/static/media/GalleryVR_6.063fb3ac896d1425b123.jpg",
     "static/media/GalleryVR_2.jpg": "/static/media/GalleryVR_2.4df33d3093902cf167d2.jpg",
+    "static/media/CorPower_4.jpg": "/static/media/CorPower_4.8d6fb584983940301876.jpg",
+    "static/media/CorPower_2.jpg": "/static/media/CorPower_2.dd934f3fdefff964e0aa.jpg",
+    "static/media/CorPower_5.jpg": "/static/media/CorPower_5.1716ad300ca8b03d2028.jpg",
     "static/media/DigitalAcademy_4.jpg": "/static/media/DigitalAcademy_4.45077b4418fd8b931d7f.jpg",
     "static/media/DontMissTravel_8.jpg": "/static/media/DontMissTravel_8.eb0216d581b842db5304.jpg",
+    "static/media/CorPower_3.jpg": "/static/media/CorPower_3.153d0e43db658b0a95ea.jpg",
     "static/media/RobotsVR_4.jpg": "/static/media/RobotsVR_4.a56024896c023cb191d3.jpg",
     "static/media/RobotsVR_1.jpg": "/static/media/RobotsVR_1.28ebe43749781d50a19b.jpg",
     "static/media/DigitalAcademy_5.jpg": "/static/media/DigitalAcademy_5.ec9f81b583fbb161ab2f.jpg",
     "static/media/DigitalAcademy_2.jpg": "/static/media/DigitalAcademy_2.df63cce6e33d86f23762.jpg",
     "static/media/DigitalAcademy_1.jpg": "/static/media/DigitalAcademy_1.1ae485971b5bd5205834.jpg",
     "static/media/MoviePassVR_4.jpg": "/static/media/MoviePassVR_4.8dfdcb9ef8d659928374.jpg",
+    "static/media/CorPower_6.jpg": "/static/media/CorPower_6.26cbfcdc4c160b497149.jpg",
     "static/media/DontMissTravel_7.jpg": "/static/media/DontMissTravel_7.cb26f22f4fdeffdc2e9c.jpg",
     "static/media/avatar.png": "/static/media/avatar.9aca2d7a945cf614dd08.png",
     "static/media/GalleryVR_1.jpg": "/static/media/GalleryVR_1.ac1e75f920a8002fba39.jpg",
@@ -76,12 +82,12 @@
     "static/media/marker-dark.svg": "/static/media/marker-dark.5f9ec380056fb9237c366ad3af570f15.svg",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "static/media/marker-light.svg": "/static/media/marker-light.e957f604a381f4c70d2a0ad0636a0e05.svg",
-    "main.ab6cd77f.css.map": "/static/css/main.ab6cd77f.css.map",
-    "main.999c5821.js.map": "/static/js/main.999c5821.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.3e59bbce.css.map": "/static/css/main.3e59bbce.css.map",
+    "main.5a67f5a2.js.map": "/static/js/main.5a67f5a2.js.map",
+    "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab6cd77f.css",
-    "static/js/main.999c5821.js"
+    "static/css/main.3e59bbce.css",
+    "static/js/main.5a67f5a2.js"
   ]
 }
