@@ -26,12 +26,13 @@ export const useProjectData = (
         "AssetsStore/ServiceLocator.jpg",
       ],
     },
-	name: "CorPower VR",
+    {
+	    name: "CorPower VR",
       technologies: [
         "Unity",
         "C#",
         "VR",
-		"Hand-tracking",
+		    "Hand-tracking",
         "OVR (Oculus Integration)",
         "DoTween",
       ],
@@ -49,7 +50,7 @@ export const useProjectData = (
       ],
       video: "https://player.vimeo.com/video/911575653?h=e4549b1e20",
     },
-	{
+	  {
       name: "Simple Gallery VR",
       technologies: [
         "Unity",
