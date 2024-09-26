@@ -2,7 +2,7 @@
    "home":{
       "name":"Andrii Horlov",
       "profession":"Unity C# Developer",
-      "desc":"👋 Hi, I am a Ukrainian Unity Developer based in Porto, Portugal with 4+ years of experience in VR/AR application development. I have strong expertise in the development of VR training and VR/AR exhibitions. I am also an enthusiast in game development and skilled in editor customization. I have a strong background in API integration and C#. Additionally, I have experience in a range of SDKs.",
+      "desc":"👋 Hi, I’m a Ukrainian Unity Developer currently based in Porto, Portugal, with extensive experience in VR/AR application development. I specialize in creating VR training modules and immersive VR/AR exhibitions. As a passionate game developer, I’m also skilled in Unity editor customization, API integration, and C#. Additionally, I work with a wide range of SDKs, continuously expanding my expertise over the years.",
       "download":"Download CV",
       "contact":"Contacts",
       "copy":"Copy",
@@ -13,8 +13,8 @@
       "skills":"Skills and Techstack",
       "edu":"Education",
       "eduDesc":"Master of Engineering (MEng), Software Engineering",
-      "univ":"National Aerospace University - 'Kharkiv Aviation Institute'​ (Kharkiv, Ukraine)",
-      "course":"Unity 3d Education (Kharkiv)",
+      "univ":"Kharkiv National Aerospace University (Kharkiv, Ukraine. 2012-2016)",
+      "course":"Unity 3d Education (Kharkiv, Ukraine. 2018-2019)",
       "lang":"Languages",
       "uk":"Ukrainian",
       "en":"English (upper-intermediate level)"
@@ -25,6 +25,7 @@
       "code":"View code",
       "demo":"Try Demo",
       "more_info":"More info",
+	  "description_assetstore":"This project features a collection of tools designed to simplify development workflows in Unity. Available tools include a build logger for debugging, an asset validator to ensure project integrity, and a service locator for efficient dependency management. Additional tools will be added in the future to enhance functionality and support developers further.",
 	  "description_corpower_vr":"An immersive virtual reality (VR) experience was developed for CorPower Ocean, a prominent renewable energy manufacturer. The aim is to show audiences and potential clients by showcasing the company's wave converter technology at events and conferences. The VR experience features an energy extraction simulator, allowing users to generate waves from buoy movements using hand-tracking functionality. Additionally, users can explore the actual size of the buoy from within the VR environment.",
       "description_robots_vr":"Robots VR is a VR experience for learning about warehouses. Dive into interactive experiences with purpose-built robots that elevate and refine various aspects of warehouse operations. You get to interact with these robotic assistants executing logistics tasks, providing you with hands-on insights into how automation significantly enhances the efficiency and effectiveness of warehouse management.",
       "description_digital_academy":"Digital Academy is an e-learning platform designed for technicians working with advanced industrial machinery. It offers engaging and interactive training sessions, ensuring comprehensive learning. The platform tracks progress, helping technicians improve their day-to-day efficiency in handling complex equipment. It's a valuable tool for staying updated and enhancing skills in the ever-evolving industrial landscape.",
