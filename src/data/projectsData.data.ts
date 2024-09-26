@@ -5,7 +5,28 @@ export const useProjectData = (
 ) => {
   const PROJECTS_DATA = [
     {
-      name: "CorPower VR",
+      name: "Unity tools",
+      technologies: [
+        "Unity",
+        "C#",
+        "Unity customization",
+		"Unity Editor Tools",
+      ],
+      desc: t("project.description_assetstore"),
+      codeLink: "https://github.com/andriihorlov/SeparateTools",
+      moreInfo: "",
+      demoLink: "https://assetstore.unity.com/publishers/94841",
+      gallery: [
+        "AssetsStore/AssetDetector_1.jpg",
+        "AssetsStore/AssetDetector_2.jpg",
+        "AssetsStore/AssetDetector_3.jpg",
+        "AssetsStore/BuildLogger_1.jpg",
+        "AssetsStore/BuildLogger_2.jpg",
+        "AssetsStore/BuildLogger_3.jpg",
+        "AssetsStore/ServiceLocator.jpg",
+      ],
+    },
+	name: "CorPower VR",
       technologies: [
         "Unity",
         "C#",

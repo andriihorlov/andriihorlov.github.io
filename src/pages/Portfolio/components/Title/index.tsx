@@ -3,9 +3,9 @@ import { GlobalContext } from "../../../../context/GlobalContext";
 import { useContext } from "react";
 import useTheme from "../../../../hooks/useTheme";
 import styles from "./Title.module.scss";
-import Avatar from "../../../../assets/avatar.png";
+import Avatar from "../../../../assets/avatar.jpg";
 import Download from "../../../../assets/download.svg";
-import Resume from "./CV-AndriiHorlov.pdf";
+import Resume from "./CV_Andrii Horlov - Senior Unity Developer.pdf";
 import { motion } from "framer-motion";
 
 const Title = () => {
