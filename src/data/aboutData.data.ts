@@ -11,13 +11,19 @@ export const CONTENT_TECHNOLOGIES = [
   "JSON",
   "Photon PUN (v2)",
   "Photon Fusion (v1, v2)",
+  "Unity Multiplayer (Netcode, Relay, Lobby)",
   "Agora SDK",
   "API Integration",
+  "OOP",
+  "SOLID",
   "Firebase",
   "Work with native DLLs",
   "WebGL/Windows/Android builds",
   "Android/IOS publishing",
   "Unity Editor customization",
+  "Zenject",
+  "DoTween",
+  "Lipsync",
 ];
 
 export const useAboutData = (

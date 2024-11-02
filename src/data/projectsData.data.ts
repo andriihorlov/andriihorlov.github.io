@@ -4,6 +4,30 @@ export const useProjectData = (
   t: TFunction<"translation", undefined, "translation">
 ) => {
   const PROJECTS_DATA = [
+     {
+      name: "The Vang Mike",
+      technologies: [
+        "Unity",
+        "C#",
+        "VR",
+		"Hand-tracking",
+		"DoTween",
+		"MetaSDK",
+      ],
+      desc: t("project.description_thevangmike"),
+      codeLink: "",
+      moreInfo: "",
+      demoLink: "",
+      gallery: [
+        "TheVangMike/TheVangMike_1.jpg",
+        "TheVangMike/TheVangMike_2.jpg",
+        "TheVangMike/TheVangMike_3.jpg",
+        "TheVangMike/TheVangMike_4.jpg",
+        "TheVangMike/TheVangMike_5.jpg",
+        "TheVangMike/TheVangMike_6.jpg",
+      ],
+	  video: "https://www.youtube.com/embed/e3gyVdfUSMQ?si=QShkL_IMpP8AORJm",
+    },
     {
       name: "Unity tools",
       technologies: [
@@ -32,7 +56,7 @@ export const useProjectData = (
         "Unity",
         "C#",
         "VR",
-		    "Hand-tracking",
+		"Hand-tracking",
         "OVR (Oculus Integration)",
         "DoTween",
       ],
