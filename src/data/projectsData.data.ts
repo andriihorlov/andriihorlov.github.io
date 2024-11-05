@@ -5,7 +5,7 @@ export const useProjectData = (
 ) => {
   const PROJECTS_DATA = [
      {
-      name: "The Vang Mike",
+      name: "Immersive Gallery AI",
       technologies: [
         "Unity",
         "C#",
@@ -21,13 +21,13 @@ export const useProjectData = (
       moreInfo: "",
       demoLink: "",
       gallery: [
-        "ImmersiveGalleryAi/ImmersiveGalleryAi_1.jpg",
-        "ImmersiveGalleryAi/ImmersiveGalleryAi_2.jpg",
-        "ImmersiveGalleryAi/ImmersiveGalleryAi_3.jpg",
-        "ImmersiveGalleryAi/ImmersiveGalleryAi_4.jpg",
-        "ImmersiveGalleryAi/ImmersiveGalleryAi_5.jpg",
-        "ImmersiveGalleryAi/ImmersiveGalleryAi_6.jpg",
-        "ImmersiveGalleryAi/ImmersiveGalleryAi_7.jpg",
+        "ImmersiveGalleryAI/ImmersiveGalleryAI_1.jpg",
+        "ImmersiveGalleryAi/ImmersiveGalleryAI_2.jpg",
+        "ImmersiveGalleryAi/ImmersiveGalleryAI_3.jpg",
+        "ImmersiveGalleryAi/ImmersiveGalleryAI_4.jpg",
+        "ImmersiveGalleryAi/ImmersiveGalleryAI_5.jpg",
+        "ImmersiveGalleryAi/ImmersiveGalleryAI_6.jpg",
+        "ImmersiveGalleryAi/ImmersiveGalleryAI_7.jpg",
       ],
 	  video: "https://www.youtube.com/embed/RL4igfD7drc?si=jFkPTZfPw78ttm39",
      },
