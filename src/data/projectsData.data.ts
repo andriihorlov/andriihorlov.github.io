@@ -29,7 +29,7 @@ export const useProjectData = (
         "ImmersiveGalleryAi/ImmersiveGalleryAi_6.jpg",
         "ImmersiveGalleryAi/ImmersiveGalleryAi_7.jpg",
       ],
-	  video: "https://www.youtube.com/embed/zQPaiNpph2g?si=8RSvRFpmjTU3dBm2",
+	  video: "https://www.youtube.com/embed/RL4igfD7drc?si=jFkPTZfPw78ttm39",
      },
      {
       name: "The Vang Mike",
