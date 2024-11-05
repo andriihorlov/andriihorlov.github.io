@@ -4,6 +4,57 @@ export const useProjectData = (
   t: TFunction<"translation", undefined, "translation">
 ) => {
   const PROJECTS_DATA = [
+     {
+      name: "The Vang Mike",
+      technologies: [
+        "Unity",
+        "C#",
+        "VR",
+		"Firebase",
+		"DoTween",
+		"XR Toolkit",
+		"Zenject",
+		"OpenAI",
+      ],
+      desc: t("project.description_immersivegalleryai"),
+      codeLink: "",
+      moreInfo: "",
+      demoLink: "",
+      gallery: [
+        "ImmersiveGalleryAi/ImmersiveGalleryAi_1.jpg",
+        "ImmersiveGalleryAi/ImmersiveGalleryAi_2.jpg",
+        "ImmersiveGalleryAi/ImmersiveGalleryAi_3.jpg",
+        "ImmersiveGalleryAi/ImmersiveGalleryAi_4.jpg",
+        "ImmersiveGalleryAi/ImmersiveGalleryAi_5.jpg",
+        "ImmersiveGalleryAi/ImmersiveGalleryAi_6.jpg",
+        "ImmersiveGalleryAi/ImmersiveGalleryAi_7.jpg",
+      ],
+	  video: "https://www.youtube.com/embed/RL4igfD7drc?si=jFkPTZfPw78ttm39",
+     },
+     {
+      name: "The Vang Mike",
+      technologies: [
+        "Unity",
+        "C#",
+        "VR",
+		"Hand-tracking",
+		"DoTween",
+		"MetaSDK",
+      ],
+      desc: t("project.description_thevangmike"),
+      codeLink: "",
+      moreInfo: "",
+      demoLink: "",
+      gallery: [
+        "TheVangMike/TheVangMike_1.jpg",
+        "TheVangMike/TheVangMike_2.jpg",
+        "TheVangMike/TheVangMike_3.jpg",
+        "TheVangMike/TheVangMike_4.jpg",
+        "TheVangMike/TheVangMike_5.jpg",
+        "TheVangMike/TheVangMike_6.jpg",
+      ],
+	  video: "https://www.youtube.com/embed/e3gyVdfUSMQ?si=QShkL_IMpP8AORJm",
+    },
     {
       name: "Unity tools",
       technologies: [
@@ -32,7 +83,7 @@ export const useProjectData = (
         "Unity",
         "C#",
         "VR",
-		    "Hand-tracking",
+		"Hand-tracking",
         "OVR (Oculus Integration)",
         "DoTween",
       ],
