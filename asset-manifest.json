@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1b1bacc4.css",
-    "main.js": "/static/js/main.aa1e5b28.js",
+    "main.js": "/static/js/main.5f0645f1.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/CV_Andrii Horlov - Senior Unity Developer.pdf": "/static/media/CV_Andrii Horlov - Senior Unity Developer.39516327ed2224f05533.pdf",
     "static/media/avatar.jpg": "/static/media/avatar.afd0c942e1e216d91cd3.jpg",
@@ -103,11 +103,11 @@
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "static/media/marker-light.svg": "/static/media/marker-light.e957f604a381f4c70d2a0ad0636a0e05.svg",
     "main.1b1bacc4.css.map": "/static/css/main.1b1bacc4.css.map",
-    "main.aa1e5b28.js.map": "/static/js/main.aa1e5b28.js.map",
+    "main.5f0645f1.js.map": "/static/js/main.5f0645f1.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b1bacc4.css",
-    "static/js/main.aa1e5b28.js"
+    "static/js/main.5f0645f1.js"
   ]
 }
