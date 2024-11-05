@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.1b1bacc4.css",
-    "main.js": "/static/js/main.82b7e235.js",
+    "main.js": "/static/js/main.de190a7d.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/TheVangMike_3.png": "/static/media/TheVangMike_3.7b012bd6be7a59dee4ee.png",
-    "static/media/TheVangMike_1.png": "/static/media/TheVangMike_1.b8f02cec88b7bc6622de.png",
-    "static/media/TheVangMike_2.png": "/static/media/TheVangMike_2.3acc57fd2db7b65cd331.png",
-    "static/media/TheVangMike_4.png": "/static/media/TheVangMike_4.5874ef4c594557011dec.png",
     "static/media/CV_Andrii Horlov - Senior Unity Developer.pdf": "/static/media/CV_Andrii Horlov - Senior Unity Developer.39516327ed2224f05533.pdf",
-    "static/media/TheVangMike_6.png": "/static/media/TheVangMike_6.ed3809508f95f8b116ef.png",
-    "static/media/TheVangMike_5.png": "/static/media/TheVangMike_5.2b96659d87e68110bfd5.png",
     "static/media/avatar.jpg": "/static/media/avatar.afd0c942e1e216d91cd3.jpg",
     "static/media/ImmersiveGalleryAI_4.jpg": "/static/media/ImmersiveGalleryAI_4.b11abbf18d6c19fdfe89.jpg",
     "static/media/ImmersiveGalleryAI_5.jpg": "/static/media/ImmersiveGalleryAI_5.fc1f878ed63b34f887ca.jpg",
     "static/media/ImmersiveGalleryAI_6.jpg": "/static/media/ImmersiveGalleryAI_6.365937faf69f997c7183.jpg",
     "static/media/ImmersiveGalleryAI_3.jpg": "/static/media/ImmersiveGalleryAI_3.1354faf8e6f6639b6be8.jpg",
     "static/media/ImmersiveGalleryAI_7.jpg": "/static/media/ImmersiveGalleryAI_7.f7246e561bd569323f42.jpg",
+    "static/media/TheVangMike_4.jpg": "/static/media/TheVangMike_4.10ca20ba6fe3a8c3a237.jpg",
+    "static/media/TheVangMike_6.jpg": "/static/media/TheVangMike_6.ad6e34aea2c0a30d369f.jpg",
+    "static/media/TheVangMike_3.jpg": "/static/media/TheVangMike_3.91787f0729a5f9da300d.jpg",
     "static/media/ImmersiveGalleryAI_2.jpg": "/static/media/ImmersiveGalleryAI_2.be26563c8dcb6d1138b9.jpg",
+    "static/media/TheVangMike_2.jpg": "/static/media/TheVangMike_2.c352a16ae5caa330920f.jpg",
     "static/media/ImmersiveGalleryAI_1.jpg": "/static/media/ImmersiveGalleryAI_1.708e7f63a5a1b93251e0.jpg",
+    "static/media/TheVangMike_1.jpg": "/static/media/TheVangMike_1.9fcd5392bf0c6dff1efa.jpg",
+    "static/media/TheVangMike_5.jpg": "/static/media/TheVangMike_5.39744fba4902ca07243b.jpg",
     "static/media/RobotsVR_3.jpg": "/static/media/RobotsVR_3.8b554c628d438e62fa84.jpg",
     "static/media/RobotsVR_6.jpg": "/static/media/RobotsVR_6.00184e8fd2649a0264b7.jpg",
     "static/media/Clerk_1.jpg": "/static/media/Clerk_1.652f43df5fdc88cf031d.jpg",
@@ -103,11 +103,11 @@
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "static/media/marker-light.svg": "/static/media/marker-light.e957f604a381f4c70d2a0ad0636a0e05.svg",
     "main.1b1bacc4.css.map": "/static/css/main.1b1bacc4.css.map",
-    "main.82b7e235.js.map": "/static/js/main.82b7e235.js.map",
+    "main.de190a7d.js.map": "/static/js/main.de190a7d.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b1bacc4.css",
-    "static/js/main.82b7e235.js"
+    "static/js/main.de190a7d.js"
   ]
 }
